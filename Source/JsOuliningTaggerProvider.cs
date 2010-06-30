@@ -9,13 +9,11 @@ using Microsoft.VisualStudio.Text.Classification;
 
 namespace Artem.VisualStudio.JsOutlining {
 
+    [ContentType("CSS")]
     [ContentType("JScript")]
     [Export(typeof(ITaggerProvider))]
     [TagType(typeof(IOutliningRegionTag))]
     public class JsOuliningTaggerProvider : ITaggerProvider {
-
-        [Import]
-        internal IClassifierAggregatorService AggregatorFactory;
 
         #region ITaggerProvider Members
 
