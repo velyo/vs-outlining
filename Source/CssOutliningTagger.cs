@@ -1,21 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.Composition;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
-using Microsoft.VisualStudio.Text;
-using Microsoft.VisualStudio.Text.Outlining;
 using Microsoft.VisualStudio.Text.Tagging;
-using Microsoft.VisualStudio.Utilities;
+using Microsoft.VisualStudio.Text;
+using System.Text.RegularExpressions;
 
 namespace Artem.VisualStudio.Outlining {
 
     /// <summary>
     /// 
     /// </summary>
-    internal sealed class JsOutliningTagger : ITagger<IOutliningRegionTag> {
+    internal class CssOutliningTagger : ITagger<IOutliningRegionTag> {
 
         #region Static Fields /////////////////////////////////////////////////////////////////////
 
@@ -28,8 +24,8 @@ namespace Artem.VisualStudio.Outlining {
 
         static readonly string BlockBeginPattern = @"(?<text>^.*)(?:\s*\{)";
         static readonly string BlockEndPattern = @"(?:\})";
-        static readonly string CustomBeginPattern = @"((?://\s*\#region)|(?://\s*\#\>))(?<text>.*)";
-        static readonly string CustomEndPattern = @"(?://\s*\#endregion)|(?://\s*\#\<)";
+        static readonly string CustomBeginPattern = @"((?:/\*\s*\#region)|(?:/\*\s*\#\>))(?<text>.*)(?:\*/)";
+        static readonly string CustomEndPattern = @"(?:/\*\s*\#endregion)|(?:/\*\s*\#\<)(?:\*/)";
 
         #endregion
 
@@ -62,10 +58,11 @@ namespace Artem.VisualStudio.Outlining {
         #region Construct /////////////////////////////////////////////////////////////////////////
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="JsOutliningTagger"/> class.
+        /// Initializes a new instance of the <see cref="CssOutliningTagger"/> class.
         /// </summary>
         /// <param name="buffer">The buffer.</param>
-        public JsOutliningTagger(ITextBuffer buffer) {
+        public CssOutliningTagger(ITextBuffer buffer) {
+
             _buffer = buffer;
             _snapshot = buffer.CurrentSnapshot;
             _regions = new List<Region>();
@@ -88,7 +85,6 @@ namespace Artem.VisualStudio.Outlining {
         /// <param name="spans">The spans.</param>
         /// <returns></returns>
         public IEnumerable<ITagSpan<IOutliningRegionTag>> GetTags(NormalizedSnapshotSpanCollection spans) {
-
             if (spans.Count == 0) yield break;
 
             List<Region> currentRegions = _regions;
@@ -129,6 +125,7 @@ namespace Artem.VisualStudio.Outlining {
             Match match;
             Region region;
             Stack<Region> stack = new Stack<Region>();
+
 
             foreach (var line in newSnapshot.Lines) {
                 string text = line.GetText();

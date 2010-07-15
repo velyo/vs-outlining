@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Artem.VisualStudio.JsOutlining {
+namespace Artem.VisualStudio.Outlining {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Artem.VisualStudio.JsOutlining {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Artem.VisualStudio.JsOutlining.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Artem.VisualStudio.Outlining.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Vsix xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="1.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2010">
     <Identifier Id="fd797919-4930-4e69-ba77-2c49710c8fa4">
-        <Name>JsOutlining</Name>
+        <Name>ArtemOutlining</Name>
         <Author>Velio Ivanov</Author>
-        <Version>1.0</Version>
-        <Description xml:space="preserve">Visual Studio 2010 editor extension for JavaScript regions oulining.</Description>
+        <Version>1.1</Version>
+        <Description xml:space="preserve">Visual Studio 2010 editor extension for JavaScript and CSS regions oulining.</Description>
         <Locale>1033</Locale>
         <MoreInfoUrl>http://artembg.com</MoreInfoUrl>
-        <GettingStartedGuide>http://googlemap.codeplex.com</GettingStartedGuide>
+        <GettingStartedGuide>http://jsoutlining.codeplex.com</GettingStartedGuide>
         <InstalledByMsi>false</InstalledByMsi>
         <SupportedProducts>
             <VisualStudio Version="10.0">

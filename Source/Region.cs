@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.VisualStudio.Text;
 using Microsoft.VisualStudio.Text.Tagging;
 
-namespace Artem.VisualStudio.JsOutlining {
+namespace Artem.VisualStudio.Outlining {
 
     enum RegionType {
         None,
@@ -50,6 +50,7 @@ namespace Artem.VisualStudio.JsOutlining {
             var span = this.AsSnapshotSpan();
             bool collapsed = (this.Type == RegionType.Custom);
             var tag = new OutliningRegionTag(collapsed, false, this.Text, span.GetText());
+
             return new TagSpan<IOutliningRegionTag>(span, tag);
         }
         #endregion
