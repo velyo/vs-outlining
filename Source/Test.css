@@ -3,7 +3,7 @@
 	padding: 0;
 	border: none;
 }
-/*#region Test */
+/*#> Test */
 body {
 	background-color: #AAA;
 	font-family: Verdana;
@@ -13,7 +13,7 @@ h1, h2, h3, h4 {
 	color: #5377A9;
 	font-family: Tahoma;
 }
-/*#endregion*/
+/*#<*/
 h1 {
 	font-size: 20px;
 	font-weight: normal;
