@@ -1,0 +1,146 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81FD9E3B-A18D-4667-88B7-04D571B6EBBB}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{07C3DD5F-AAF6-400D-A0FB-173B8302D8A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3AC8D82F-F735-4F2B-B339-70A0F5FFC10E}"
+	ProjectSection(SolutionItems) = preProject
+		test\Test.css = test\Test.css
+		test\Test.htm = test\Test.htm
+		test\Test.js = test\Test.js
+		test\Test1.js = test\Test1.js
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutliningExtensions", "src\OutliningExtensions\OutliningExtensions.csproj", "{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{1847FE6F-C4ED-4497-932D-66001FEF439B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VS2010SDK", "VS2010SDK", "{0378AC7D-71C5-41D8-908F-C6CF1DBC76CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v2.0", "v2.0", "{746463A5-154B-4106-8D42-CFFF650D3761}"
+	ProjectSection(SolutionItems) = preProject
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.10.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.Interop.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.InteropA.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.InteropA.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.InteropA.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Debugger.InteropA.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Designer.Interfaces.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Designer.Interfaces.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Designer.Interfaces.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Designer.Interfaces.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.9.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.9.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.9.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.9.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.WCF.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.WCF.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.WCF.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.WCF.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ManagedInterfaces.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.OLE.Interop.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.OLE.Interop.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.OLE.Interop.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.OLE.Interop.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ProjectAggregator.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ProjectAggregator.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ProjectAggregator.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.ProjectAggregator.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.9.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.9.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.9.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.9.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.10.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.10.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.10.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.8.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.8.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.8.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.9.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.9.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.9.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.Interop.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.Shell.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.10.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.10.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.10.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.8.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.8.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.8.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.9.0.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.TextManager.Interop.xml
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.WCFReference.Interop.dll = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.WCFReference.Interop.dll
+		lib\VS2010SDK\v2.0\Microsoft.VisualStudio.WCFReference.Interop.xml = lib\VS2010SDK\v2.0\Microsoft.VisualStudio.WCFReference.Interop.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v4.0", "v4.0", "{43878B1A-8F2B-40CC-AAC1-E3C549B0AD26}"
+	ProjectSection(SolutionItems) = preProject
+		lib\VS2010SDK\v4.0\Microsoft.Data.ConnectionUI.dll = lib\VS2010SDK\v4.0\Microsoft.Data.ConnectionUI.dll
+		lib\VS2010SDK\v4.0\Microsoft.Data.ConnectionUI.xml = lib\VS2010SDK\v4.0\Microsoft.Data.ConnectionUI.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.CoreUtility.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.CoreUtility.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.CoreUtility.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.CoreUtility.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Core.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Core.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Core.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Core.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Framework.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Framework.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Framework.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Framework.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Services.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Services.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Services.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.Services.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Data.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Editor.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Editor.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Editor.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Editor.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.Intellisense.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.Intellisense.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.Intellisense.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.Intellisense.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.StandardClassification.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.StandardClassification.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.StandardClassification.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Language.StandardClassification.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Package.LanguageService.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Package.LanguageService.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Package.LanguageService.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Package.LanguageService.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.QualityTools.Vsip.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.QualityTools.Vsip.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.QualityTools.Vsip.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.QualityTools.Vsip.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Settings.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Settings.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Settings.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Settings.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Design.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Design.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Design.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Design.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Immutable.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Immutable.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Immutable.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.Immutable.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.StartPage.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.StartPage.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.StartPage.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Shell.StartPage.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Data.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Data.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Data.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Data.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Logic.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Logic.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Logic.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.Logic.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.Wpf.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.Text.UI.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.Interfaces.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.VSHost.10.0.dll = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.VSHost.10.0.dll
+		lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.VSHost.10.0.xml = lib\VS2010SDK\v4.0\Microsoft.VisualStudio.TextTemplating.VSHost.10.0.xml
+		lib\VS2010SDK\v4.0\Microsoft.VSSDK.UnitTestLibrary.dll = lib\VS2010SDK\v4.0\Microsoft.VSSDK.UnitTestLibrary.dll
+		lib\VS2010SDK\v4.0\Microsoft.VSSDK.UnitTestLibrary.xml = lib\VS2010SDK\v4.0\Microsoft.VSSDK.UnitTestLibrary.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CE5B89F-599C-4C58-BCCB-05D61D1CEAD7} = {07C3DD5F-AAF6-400D-A0FB-173B8302D8A3}
+		{0378AC7D-71C5-41D8-908F-C6CF1DBC76CB} = {1847FE6F-C4ED-4497-932D-66001FEF439B}
+		{746463A5-154B-4106-8D42-CFFF650D3761} = {0378AC7D-71C5-41D8-908F-C6CF1DBC76CB}
+		{43878B1A-8F2B-40CC-AAC1-E3C549B0AD26} = {0378AC7D-71C5-41D8-908F-C6CF1DBC76CB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		BuildVersion_UseGlobalSettings = True
+	EndGlobalSection
+EndGlobal

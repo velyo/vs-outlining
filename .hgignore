@@ -25,6 +25,8 @@ syntax: glob
 *.lib
 *.srb
 *.scc
+
+# Ignore folders
 [Bb]in
 [Dd]ebug*/
 obj
@@ -34,3 +36,4 @@ _ReSharper*/
 [Bb]uild[Ll]og.*
 *.[Pp]ublish.xml
 TestResults/
+.git/
