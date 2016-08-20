@@ -1,5 +1,5 @@
 # VisualStudio JavaScript &amp; CSS Outlining 
-[![Build status](https://ci.appveyor.com/api/projects/status/f27l3vdcnf942ns2?svg=true)](https://ci.appveyor.com/project/velio_ivanov/vs-outlining)
+[![Build status](https://ci.appveyor.com/api/projects/status/f27l3vdcnf942ns2?svg=true)](https://ci.appveyor.com/project/velyo/vs-outlining)
 [![Stories in Ready](https://badge.waffle.io/velyo/vs-outlining.svg?label=ready&title=Ready)](http://waffle.io/velyo/vs-outlining)
 [![Gitter](https://badges.gitter.im/velyo/vs-outlining.svg)](https://gitter.im/velyo/vs-outlining?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
