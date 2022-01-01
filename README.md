@@ -8,7 +8,7 @@ As a web developer, I found myself dealing with fast growing *JavaScript* and *C
 And I really missed the code regions in Visual Studio, which is a nice way to organize the code blocks and focus on reasonable small amount of code.  
 There are some macros available out on the web for placing a regions outlining in JavaScript code editor.  
 I was not fully satisfied with macros and the fact I have to manually run them (even with a shortcut keys) every time a JavaScript file is loaded.  
-Thus, I spent some time and came out with a Visual Studio 2010 Editor Extension for JavaScript & CSS Oulining.
+Thus, I spent some time and came out with a Visual Studio 2010 Editor Extension for JavaScript & CSS Outlining.
 
 ## Installation
 Download and run the visual studio package installer file (.vsix).  
